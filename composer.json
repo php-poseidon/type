@@ -1,0 +1,28 @@
+{
+    "name": "poseidon/type",
+    "description": "The missing PHP static analysis type contract",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Poseidon\\Type\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Valentin Udaltsov",
+            "email": "udaltsov.valentin@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.12",
+        "vimeo/psalm": "^4.29"
+    },
+    "scripts": {
+        "fixcs": "php-cs-fixer fix -v",
+        "psalm": "psalm --no-diff --show-info"
+    }
+}
