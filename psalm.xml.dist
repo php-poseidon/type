@@ -21,12 +21,4 @@
             <directory name="vendor"/>
         </ignoreFiles>
     </projectFiles>
-
-    <issueHandlers>
-        <InvalidArgument>
-            <errorLevel type="suppress">
-                <referencedFunction name="Poseidon\Type\UnionT::__construct"/>
-            </errorLevel>
-        </InvalidArgument>
-    </issueHandlers>
 </psalm>
