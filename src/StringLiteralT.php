@@ -6,7 +6,7 @@ namespace Poseidon\Type;
 
 /**
  * @psalm-immutable
- * @template TString of string
+ * @template TString of literal-string
  * @implements Type<TString>
  */
 final class StringLiteralT implements Type
