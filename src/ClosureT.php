@@ -6,12 +6,14 @@ namespace Poseidon\Type;
 
 /**
  * @psalm-immutable
- * @implements Type<callable>
+ * @template TReturn
+ * @implements Type<\Closure(): TReturn>
  */
 final class ClosureT implements Type
 {
     /**
      * @param list<CallableParameter> $parameters
+     * @param Type<TReturn>           $returnType
      */
     public function __construct(
         public readonly array $parameters = [],
