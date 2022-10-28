@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Poseidon\Type;
 
-use Poseidon\Type\Source\ClassSource;
+use Poseidon\Type\Scope\ClassS;
 
 /**
  * @psalm-immutable
@@ -14,7 +14,7 @@ use Poseidon\Type\Source\ClassSource;
 final class StaticT implements Type
 {
     public function __construct(
-        public readonly ClassSource $source,
+        public readonly ClassS $class,
     ) {
     }
 }

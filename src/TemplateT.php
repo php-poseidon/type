@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace Poseidon\Type;
 
-use Poseidon\Type\Source\ClassSource;
-use Poseidon\Type\Source\FunctionSource;
-use Poseidon\Type\Source\MethodSource;
+use Poseidon\Type\Scope\ClassS;
+use Poseidon\Type\Scope\FunctionS;
+use Poseidon\Type\Scope\MethodS;
 
 /**
  * @psalm-immutable
@@ -16,7 +16,7 @@ final class TemplateT implements Type
 {
     public function __construct(
         public readonly string $name,
-        public readonly FunctionSource|ClassSource|MethodSource $source,
+        public readonly FunctionS|ClassS|MethodS $scope,
     ) {
     }
 }

@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Poseidon\Type\Source;
+namespace Poseidon\Type\Scope;
 
 /**
  * @psalm-immutable
  */
-final class ClassSource
+final class ClassS
 {
     /**
      * @param class-string $class
