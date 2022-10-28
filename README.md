@@ -46,9 +46,9 @@ Although types like `non-empty-list` can be safely named `NonEmptyList`, for now
 - [x] `null`
 - [x] `true`
 - [x] `false`
-- [ ] `-10`
-- [ ] `-0.34`
-- [ ] `'foo'`
+- [x] `-10`
+- [x] `-0.34`
+- [x] `'foo'`
 
 ## Array types
 
