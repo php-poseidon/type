@@ -8,6 +8,14 @@
             "Poseidon\\Type\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Poseidon\\Type\\": "tests/"
+        },
+        "files": [
+            "tests/functions.php"
+        ]
+    },
     "authors": [
         {
             "name": "Valentin Udaltsov",
@@ -19,7 +27,7 @@
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^3.12",
-        "vimeo/psalm": "^4.29"
+        "vimeo/psalm": "^5@beta"
     },
     "scripts": {
         "fixcs": "php-cs-fixer fix -v",
