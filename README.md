@@ -63,7 +63,7 @@ Although types like `non-empty-list` can be safely named `NonEmptyList`, for now
 
 - [x] `object`
 - [x] `Foo\MyClass<T>`
-- [ ] `Generator<TKey, TValue, TSend, TReturn>` (implement as an Alias?)
+- [x] `Generator<TKey, TValue, TSend, TReturn>`
 - [x] `static`
 
 ## Callable types
