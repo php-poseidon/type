@@ -29,7 +29,7 @@ Although types like `non-empty-list` can be safely named `NonEmptyList`, for now
 - [x] `float`
 - [x] `non-empty-string`
 - [x] `string`
-- [ ] `literal-string`
+- [x] `literal-string`
 - [x] `array-key`
 - [x] `numeric-string`
 - [x] `class-string`
